@@ -51,15 +51,15 @@ autocomposing = false
 autorecording = false
 //----
 
-let owner = '6282293295376' // NO OWNER
-let botname = '© Abil Botz' // NAMA BOT
-let ownername = '© Abil Ganz' // NAMA OWNER
-let fake = '© Abil Botz' // FAKENYA
+let owner = '6289668753326' // NO OWNER
+let botname = '© Kimochi Botz' // NAMA BOT
+let ownername = '© Kimochi Ganz' // NAMA OWNER
+let fake = '© Kimochi Botz' // FAKENYA
 let yt = 'https://youtube.com/channel/UCJPqI5eVhKPXPL2V8y6pIDA' // YT LU
-let gopay = 'http://bit.ly/qrgopay' // QRGOPAY / NO GOPAY
-let dana = '-' // QRDANA / NO DANA
-let ovo = 'http://bit.ly/qrovo' // QROVO / NO OVO
-let pulsa = '082293295376' // PULSA
+let gopay = '089668753326' // QRGOPAY / NO GOPAY
+let dana = '089668753326' // QRDANA / NO DANA
+let ovo = '089668753326' // QROVO / NO OVO
+let pulsa = '089668753326' // PULSA
 
 const fakeimage = fs.readFileSync ('./media/dhani.jpg')
 const fakedhani = fs.readFileSync ('./media/thumb.jpg')
@@ -478,13 +478,8 @@ menu =
 ⊛ ${prefix}upswvideo
 ⊛ ${prefix}upswimage
 
-*( THANKS TO )*
-=> ORTU GW
-=> ABIL BOTZ
-=> BOTZ DHANI ?
 => ${ownername} ( OWNER BOT )
-=> ALL MY SUBSCRIBER
-_________________________________`
+________________________________`
 teks =
 `「 ${botname} 」\n*${tanggal}*`
 Dhani.sendMessage(from, { contentText: `${menu}`, footerText: `${teks}`, buttons: [{ buttonId: `${prefix}store`, buttonText: { displayText: 'sᴛᴏʀᴇ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'ᴏᴡɴᴇʀ' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
